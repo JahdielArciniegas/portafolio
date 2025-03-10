@@ -1,0 +1,245 @@
+{
+	"basics": {
+		"name": "Jahdiel Arciniegas",
+		"label": "Programador FullStack con 3 años de experiencia en la industria de la programación y en constante crecimiento",
+		"image": "mePortafolio.jpeg",
+		"email": "arciniegasjahdiel@gmail.com",
+		"phone": "+58 4247117431",
+		"url": "https://johndoe.com",
+		"summary": "Soy una persona proactiva, organizada y responsable. Deseo y persigo evolucionar e innovar constantemente para así compartir mi experiencia y conocimientos a fin de alcanzar metas y crear un ambiente de trabajo tanto positivo como productivo lo que seguramente conllevará a convertirme en una mejor version de mi.",
+		"location": {
+			"address": "San Cristobal",
+			"postalCode": "5001",
+			"city": "Táchira",
+			"countryCode": "VE",
+			"region": "Venezuela"
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "JahdielArciniegas",
+				"url": "https://github.com/JahdielArciniegas"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "Jahdiel Arciniegas",
+				"url": "https://www.linkedin.com/in/jahdiel-arciniegas-55714125b/"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Company",
+			"position": "President",
+			"url": "https://company.com",
+			"startDate": "2013-01-01",
+			"endDate": "2014-01-01",
+			"summary": "Description…",
+			"highlights": ["Started the company"]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Organization",
+			"position": "Volunteer",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description…",
+			"highlights": ["Awarded 'Volunteer of the Month'"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Universidad Nacional Experimental del Táchira",
+			"url": "https://www.unet.edu.ve",
+			"area": "Ingeniería en Informática",
+			"studyType": "Pregrado",
+			"startDate": "2022",
+			"endDate": "2023",
+			"score": "",
+			"courses": ["DB1101 - Basic SQL"]
+		}
+	],
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Certificación en HTML y CSS básico",
+			"date": "2023",
+			"issuer": "OpenBootcamp",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en JavaScript",
+			"date": "2024",
+			"issuer": "SuperSkill",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en TypeScript",
+			"date": "2024",
+			"issuer": "SuperSkill",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en FullStack en MERN",
+			"date": "2024",
+			"issuer": "FullStackOpen",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en TypeScript",
+			"date" : "2024",
+			"issuer": "FullStackOpen",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en BD Relacionales con MySQL",
+			"date": "2024",
+			"issuer": "TodoCode",
+			"url":"https://certificate.com"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description…"
+		}
+	],
+	"skills": [
+		{
+			"name": "JavaScript",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "CSS",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "HTML",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "SASS",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "React js",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Node js",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Astro",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "MySQL",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "MongoDB",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "SQLite",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Express",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Boostrap CSS",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Tailwind CSS",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "C",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "Git",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native speaker"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": ["Ferrets", "Unicorns"]
+		}
+	],
+	"references": [
+		{
+			"name": "Jane Doe",
+			"reference": "Reference…"
+		}
+	],
+	"projects": [
+		{
+			"name": "Telephone Agency",
+			"startDate": "2019-01-01",
+			"endDate": "2021-01-01",
+			"description": "Aplicación para agregar y modificar numeros telefónicos",
+			"highlights": ["Pagina de agencia telefónica"],
+			"url": "https://telephoneagencybackend.vercel.app/"
+		},
+		{
+			"name": "FullStackOpen Repository",
+			"startDate": "2019-01-01",
+			"endDate": "2021-01-01",
+			"description": "Todos los ejercicios propuestos por FullStackOpen para la práctica y aprendizaje del curso",
+			"highlights": ["Repositorio GitHub de los ejercicios FullStackOpen"],
+			"url": "https://github.com/JahdielArciniegas/FullStackOpen"
+		},
+		{
+			"name": "Farmacia Bouna Vita",
+			"startDate": "2019-01-01",
+			"endDate": "2021-01-01",
+			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
+			"highlights": ["Pagina Farmacia Bouna Vita (en progreso...)"],
+			"url": "https://farmacia-bouna-vita.vercel.app/"
+		}
+	]
+}
