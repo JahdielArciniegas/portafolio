@@ -1,0 +1,74 @@
+---
+import { basics } from "@cv";
+import Mail from "@/icons/Mail.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+const { name, role, profiles, email, location } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  GitHub,
+  LinkedIn,
+};
+---
+
+<div
+  class="h-screen w-full relative flex items-center justify-center bg-[#242D2E]"
+>
+  <div class="flex flex-col items-center justify-center mb-40">
+    <div class="flex flex-col items-center z-10">
+      <h1 class="text-9xl text-[#55CA6D] font-mono tracking-wide">
+        Jahdiel Arciniegas
+      </h1>
+      <h2
+        class="text-9xl text-[#242D2E] font-mono -tracking-tight drop-shadow-[0px_0px_4px_#55CA6D]"
+      >
+        FullStack Developer
+      </h2>
+    </div>
+
+    <div
+      class="z-30 mt-20 bg-[#F5F4F6] w-sm h-7 rounded-2xl absolute bottom-28 flex items-center justify-around"
+    >
+      {
+        email && (
+          <a
+            href={`mailto:${email}`}
+            title={`Enviar un correo a ${name} al correo ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        )
+      }
+      {
+        profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[`${network}`];
+
+          return (
+            <a
+              href={url}
+              title={`Visitar el pergil de ${name} en ${network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+  <div
+    class="background-img h-full w-full absolute bg-no-repeat bg-[auto_500px] bg-bottom drop-shadow-[0px_0px_4px_#000] z-10"
+  >
+  </div>
+</div>
+
+<style>
+  .background-img {
+    background-image: url("/heroReal.png");
+  }
+</style>
