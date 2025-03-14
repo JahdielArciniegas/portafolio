@@ -2,6 +2,7 @@
 const categories = [
   { name: "Sobre mi", url: "#about-me" },
   { name: "Estudios", url: "#" },
+  { name: "Certificaciones", url: "#" },
   { name: "Proyectos", url: "#" },
   { name: "Habilidades", url: "#" },
 ];
@@ -20,7 +21,7 @@ const categories = [
           return (
             <li>
               <a
-                class="text-xl relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#f5f4f6] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-500"
+                class="2xl:text-xl text-base relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#f5f4f6] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-500"
                 href={category.url}
               >
                 {category.name}
