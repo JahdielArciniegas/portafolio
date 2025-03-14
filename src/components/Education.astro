@@ -1,27 +1,26 @@
 ---
 import { education } from "@cv";
+import Sections from "@/components/Sections.astro";
 ---
 
-<div class="w-full h-screen flex items-center justify-center">
-  <div class="w-3/5 h-11/12 py-10">
-    <ul class="flex gap-6">
-      {
-        education.map(({ institution, area, studyType }) => {
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>{institution}</h3>
-                    <h4>{area}</h4>
-                  </div>
-                  <h5>{studyType}</h5>
-                </header>
-              </article>
-            </li>
-          );
-        })
-      }
-    </ul>
-  </div>
-</div>
+<Sections>
+  <ul class="flex gap-6">
+    {
+      education.map(({ institution, area, studyType }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{institution}</h3>
+                  <h4>{area}</h4>
+                </div>
+                <h5>{studyType}</h5>
+              </header>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Sections>
