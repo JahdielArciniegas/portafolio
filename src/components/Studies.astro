@@ -1,27 +1,21 @@
 ---
-import { education } from "@cv";
 import Sections from "@/components/Sections.astro";
+import Education from "./Studies/Education.astro";
+import { certificates } from "@cv";
 ---
 
 <Sections sectionId="studies">
   <div class="flex flex-col items-center justify-center gap-4">
     <h2 class="text-2xl font-bold">Estudios</h2>
+    <Education />
     <div class="w-full">
-      <h3 class="text-2xl">Educación</h3>
-      <ul class="flex gap-6">
+      <h3 class="text-2xl">Certificados</h3>
+      <ul>
         {
-          education.map(({ institution, area, studyType }) => {
+          certificates.map(({ name }) => {
             return (
-              <li class="container bg-[#222727] p-4 rounded-2xl hover:border-[f5f4f6] cursor-pointer hover:border transition-colors duration-300">
-                <article>
-                  <header>
-                    <div>
-                      <h3 class="text-xl font-bold">{institution}</h3>
-                      <h4 class="text-xl text-gray-300">{area}</h4>
-                    </div>
-                    <h5>{studyType}</h5>
-                  </header>
-                </article>
+              <li>
+                <h4>{name}</h4>
               </li>
             );
           })
