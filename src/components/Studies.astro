@@ -3,10 +3,11 @@ import { education } from "@cv";
 import Sections from "@/components/Sections.astro";
 ---
 
-<Sections sectionId="education">
+<Sections sectionId="studies">
   <div class="flex flex-col items-center justify-center gap-4">
     <h2 class="text-2xl font-bold">Estudios</h2>
     <div class="w-full">
+      <h3 class="text-2xl">Educación</h3>
       <ul class="flex gap-6">
         {
           education.map(({ institution, area, studyType }) => {

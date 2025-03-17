@@ -50,7 +50,15 @@
 			"highlights": ["Awarded 'Volunteer of the Month'"]
 		}
 	],
-	"education": [
+	"education": [{
+			"institution": "Unidad Educativa Colegio el Rosario",
+			"url": "https://colegioelrosario.com.ve/",
+			"area": "Bachiller en Ciencias",
+			"studyType": "Bachillerato",
+			"startDate": "2018",
+			"endDate": "2021",
+			"score": "9"
+		},
 		{
 			"institution": "Universidad Nacional Experimental del Táchira",
 			"url": "https://www.unet.edu.ve",
@@ -60,15 +68,6 @@
 			"endDate": "2023",
 			"score": "",
 			"courses": ["DB1101 - Basic SQL"]
-		},
-		{
-			"institution": "Unidad Educativa Colegio el Rosario",
-			"url": "https://colegioelrosario.com.ve/",
-			"area": "Bachiller en Ciencias",
-			"studyType": "Bachillerato",
-			"startDate": "2018",
-			"endDate": "2021",
-			"score": "9"
 		}
 	],
 	"awards": [
