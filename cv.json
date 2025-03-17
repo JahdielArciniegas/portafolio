@@ -129,81 +129,79 @@
 		{
 			"name": "JavaScript",
 			"level": "Master",
+			"icon": "Js",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "CSS",
 			"level": "Master",
+			"icon": "Css",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "HTML",
 			"level": "Master",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "SASS",
-			"level": "Master",
+			"icon": "Html",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "React js",
 			"level": "Master",
+			"icon": "React",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "Node js",
 			"level": "Master",
+			"icon": "NodeJs",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "Astro",
 			"level": "Master",
+			"icon": "IconAstro",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "MySQL",
 			"level": "Master",
+			"icon": "MySql",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "MongoDB",
 			"level": "Master",
+			"icon": "Mongodb",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "SQLite",
 			"level": "Master",
+			"icon": "Sqlite",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "Express",
 			"level": "Master",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Boostrap CSS",
-			"level": "Master",
+			"icon": "Express",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "Tailwind CSS",
 			"level": "Master",
+			"icon": "Tailwind",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "C",
 			"level": "Master",
+			"icon": "C",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
 			"name": "Git",
 			"level": "Master",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "GitHub",
-			"level": "Master",
+			"icon": "Git",
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		}
 	],
