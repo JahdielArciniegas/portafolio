@@ -203,6 +203,12 @@
 			"level": "Master",
 			"icon": "Git",
 			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Master",
+			"icon": "Ts",
+			"keywords": ["HTML", "CSS", "JavaScript"]
 		}
 	],
 	"languages": [

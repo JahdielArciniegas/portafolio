@@ -42,7 +42,7 @@ const SKILLS_ICON: Record<string, any> = {
         skills.map(({ name, icon }) => {
           const Icon = SKILLS_ICON[`${icon}`];
           return (
-            <li class="p-4 flex flex-col items-center hover:bg-[#f5f4f6] hover:text-[#242d2e] hover:rounded-2xl transition-all duration-300">
+            <li class="p-4 flex flex-col items-center hover:bg-[#f5f4f6] hover:text-[#242d2e] hover:rounded-2xl ">
               <h4 class="text-sm">{name}</h4>
               <div class="w-12 h-12">
                 <Icon />
