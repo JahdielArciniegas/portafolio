@@ -83,37 +83,32 @@
 			"name": "Certificación en BD Relacionales con MySQL",
 			"date": "2024",
 			"issuer": "TodoCode",
-			"url":"https://certificate.com",
-			"important": "tercero"
+			"url":"https://certificate.com"
 		},
 		
 		{
 			"name": "Certificación en JavaScript",
 			"date": "2024",
 			"issuer": "SuperSkill",
-			"url": "https://certificate.com",
-			"important": "quinto"
+			"url": "https://certificate.com"
 		},
 		{
 			"name": "Certificación en FullStack en MERN",
 			"date": "2024",
 			"issuer": "FullStackOpen",
-			"url": "https://certificate.com",
-			"important": "primero"
+			"url": "https://certificate.com"
 		},
 		{
 			"name": "Certificación en TypeScript",
 			"date" : "2024",
 			"issuer": "FullStackOpen",
-			"url": "https://certificate.com",
-			"important": "segundo"
+			"url": "https://certificate.com"
 		},
 		{
 			"name": "Certificación en HTML y CSS básico",
 			"date": "2023",
 			"issuer": "OpenBootcamp",
-			"url": "https://certificate.com",
-			"important": "quinto"
+			"url": "https://certificate.com"
 		}
 	],
 	"publications": [
