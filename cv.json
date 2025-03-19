@@ -231,28 +231,46 @@
 	],
 	"projects": [
 		{
+			"name": "Farmacia Bouna Vita",
+			"order": "primero",
+			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
+			"highlights": ["Pagina Farmacia Bouna Vita (en progreso...)"],
+			"url": "https://farmacia-bouna-vita.vercel.app/"
+		},
+		{
 			"name": "Telephone Agency",
-			"startDate": "2019-01-01",
-			"endDate": "2021-01-01",
+			"order": "segundo",
 			"description": "Aplicación para agregar y modificar numeros telefónicos",
 			"highlights": ["Pagina de agencia telefónica"],
 			"url": "https://telephoneagencybackend.vercel.app/"
 		},
 		{
-			"name": "FullStackOpen Repository",
-			"startDate": "2019-01-01",
-			"endDate": "2021-01-01",
-			"description": "Todos los ejercicios propuestos por FullStackOpen para la práctica y aprendizaje del curso",
-			"highlights": ["Repositorio GitHub de los ejercicios FullStackOpen"],
-			"url": "https://github.com/JahdielArciniegas/FullStackOpen"
+			"name": "Proximamente",
+			"order": "tercero",
+			"description": "",
+			"highlights": ["Trabajando duro para crear mas projectos"],
+			"url": "#"
 		},
 		{
-			"name": "Farmacia Bouna Vita",
-			"startDate": "2019-01-01",
-			"endDate": "2021-01-01",
-			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
-			"highlights": ["Pagina Farmacia Bouna Vita (en progreso...)"],
-			"url": "https://farmacia-bouna-vita.vercel.app/"
+			"name": "Proximamente",
+			"order": "cuarto",
+			"description": "",
+			"highlights": ["Trabajando duro para crear mas projectos"],
+			"url": "#"
+		},
+		{
+			"name": "Proximamente",
+			"order": "quinto",
+			"description": "",
+			"highlights": ["Trabajando duro para crear mas projectos"],
+			"url": "#"
+		},
+		{
+			"name": "Proximamente",
+			"order": "sexto",
+			"description": "",
+			"highlights": ["Trabajando duro para crear mas projectos"],
+			"url": "#"
 		}
 	]
 }
