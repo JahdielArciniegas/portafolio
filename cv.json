@@ -232,42 +232,36 @@
 	"projects": [
 		{
 			"name": "Farmacia Bouna Vita",
-			"order": "primero",
 			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
 			"highlights": ["Pagina Farmacia Bouna Vita (en progreso...)"],
 			"url": "https://farmacia-bouna-vita.vercel.app/"
 		},
 		{
 			"name": "Telephone Agency",
-			"order": "segundo",
 			"description": "Aplicación para agregar y modificar numeros telefónicos",
 			"highlights": ["Pagina de agencia telefónica"],
 			"url": "https://telephoneagencybackend.vercel.app/"
 		},
 		{
 			"name": "Proximamente",
-			"order": "tercero",
 			"description": "",
 			"highlights": ["Trabajando duro para crear mas projectos"],
 			"url": "#"
 		},
 		{
 			"name": "Proximamente",
-			"order": "cuarto",
 			"description": "",
 			"highlights": ["Trabajando duro para crear mas projectos"],
 			"url": "#"
 		},
 		{
 			"name": "Proximamente",
-			"order": "quinto",
 			"description": "",
 			"highlights": ["Trabajando duro para crear mas projectos"],
 			"url": "#"
 		},
 		{
 			"name": "Proximamente",
-			"order": "sexto",
 			"description": "",
 			"highlights": ["Trabajando duro para crear mas projectos"],
 			"url": "#"
