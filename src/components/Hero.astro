@@ -4,7 +4,8 @@ import Mail from "@/icons/SocialMedia/Mail.astro";
 import LinkedIn from "@/icons/SocialMedia/LinkedIn.astro";
 import GitHub from "@/icons/SocialMedia/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
-const { name, role, profiles, email, location } = basics;
+import Cv from "@/icons/SocialMedia/Cv.astro";
+const { name, role, profiles, email, cv, location } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -58,6 +59,20 @@ const SOCIAL_ICONS: Record<string, any> = {
             </a>
           );
         })
+      }
+      {
+        cv && (
+          <a
+            class="border text-[#242d2e] border-[#242d2e] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            href={`/${cv}`}
+            title={`Descargar el CV de ${name}`}
+            target="_blank"
+            download={`${name}_CV.pdf`}
+            rel="noopener noreferrer"
+          >
+            <Cv />
+          </a>
+        )
       }
     </div>
   </div>
