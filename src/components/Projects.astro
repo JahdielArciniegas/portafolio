@@ -5,11 +5,13 @@ import { projects } from "@cv";
 ---
 
 <Sections sectionId="projects" title="Proyectos">
-  <ul class="grid w-full grid-cols-3 grid-rows-4 gap-4 h-[700px]">
+  <ul
+    class="grid w-full xl:grid-cols-3 xl:grid-rows-4 xl:gap-4 gap-2 h-[700px]"
+  >
     {
       projects.map(({ name, url }) => {
         return (
-          <div class="container first:row-[1_/_4] nth-[2]:row-[1_/_3] nth-[2]:col-[2_/_3] ">
+          <div class="container xl:first:row-[1_/_4] xl:nth-[2]:row-[1_/_3] xl:nth-[2]:col-[2_/_3] ">
             <BoxContainer>
               <a href={url} target="_blank">
                 <h3>{name}</h3>
