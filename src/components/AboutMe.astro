@@ -7,19 +7,13 @@ const { summary } = basics;
 
 <Sections sectionId="about-me" title="Sobre Mí">
   <div class="flex items-center gap-4">
-    <p class="text-xl font-extralight w-96">
+    <p class="text-xl font-extralight w-3/5">
       {summary}
     </p>
     <img
-      class="img-mask w-96 drop-shadow-[0px_0px_10px_black]"
-      src="/Foto-Aboutme.webp"
+      class="rounded-3xl w-80 drop-shadow-[0px_0px_10px_black]"
+      src="/aboutme-img.webp"
       alt=""
     />
   </div>
 </Sections>
-
-<style>
-  .img-mask {
-    mask-image: linear-gradient(#55ca5d 80%, transparent);
-  }
-</style>
