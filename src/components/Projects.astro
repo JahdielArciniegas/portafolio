@@ -12,11 +12,11 @@ import { projects } from "@cv";
       projects.map(({ name, url }) => {
         return (
           <div class="container xl:first:row-[1_/_4] xl:nth-[2]:row-[1_/_3] xl:nth-[2]:col-[2_/_3] ">
-            <BoxContainer>
-              <a href={url} target="_blank">
+            <a href={url} target="_blank">
+              <BoxContainer>
                 <h3>{name}</h3>
-              </a>
-            </BoxContainer>
+              </BoxContainer>
+            </a>
           </div>
         );
       })
