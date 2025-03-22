@@ -5,7 +5,7 @@ import BoxContainer from "../BoxContainer.astro";
 
 <div class="w-full">
   <h3 class="text-xl">Educación</h3>
-  <ul class="flex max-sm:flex-col gap-2 xl:h-50">
+  <ul class="flex max-lg:flex-col gap-2 xl:h-50">
     {
       education.map(({ institution, area, studyType }) => {
         return (
@@ -13,10 +13,10 @@ import BoxContainer from "../BoxContainer.astro";
             <article>
               <header>
                 <div>
-                  <h3 class="max-sm:text-lg text-xl font-bold">
+                  <h3 class="max-lg:text-lg text-xl font-bold">
                     {institution}
                   </h3>
-                  <h4 class="max-sm:text-sm text-xl text-gray-300">{area}</h4>
+                  <h4 class="max-lg:text-sm text-xl text-gray-300">{area}</h4>
                 </div>
                 <h5>{studyType}</h5>
               </header>
