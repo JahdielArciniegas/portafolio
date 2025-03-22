@@ -1,0 +1,74 @@
+---
+import Sections from "./Sections.astro";
+import { basics } from "@cv";
+import GitHub from "@/icons/SocialMedia/GitHub.astro";
+import LinkedIn from "@/icons/SocialMedia/LinkedIn.astro";
+import Mail from "@/icons/SocialMedia/Mail.astro";
+import Cv from "@/icons/SocialMedia/Cv.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+
+const { name, profiles, email, cv, location } = basics;
+const { city, region } = location;
+const SOCIAL_ICONS: Record<string, any> = {
+  GitHub,
+  LinkedIn,
+};
+---
+
+<section>
+  <footer class="bg-[#222727] h-16 flex items-center justify-around">
+    <span class="object-cover w-auto flex items-center gap-2">
+      <WorldMap />
+      {city},{region}
+    </span>
+    <div class="flex items-center gap-2">
+      {
+        email && (
+          <a
+            class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            href={`mailto:${email}`}
+            title={`Enviar un correo a ${name} al correo ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        )
+      }
+      {
+        profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[`${network}`];
+
+          return (
+            <a
+              class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+              href={url}
+              title={`Visitar el pergil de ${name} en ${network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
+          );
+        })
+      }
+      {
+        cv && (
+          <a
+            class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            href={`/${cv}`}
+            title={`Descargar el CV de ${name}`}
+            target="_blank"
+            download={`${name}_CV.pdf`}
+            rel="noopener noreferrer"
+          >
+            <Cv />
+          </a>
+        )
+      }
+    </div>
+    <p class="text-sm w-50">
+      © Hecho por <strong class="text-[#55ca5d]">{name}</strong> 2025
+    </p>
+  </footer>
+</section>
