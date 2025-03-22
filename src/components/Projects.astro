@@ -6,7 +6,7 @@ import { projects } from "@cv";
 
 <Sections sectionId="projects" title="Proyectos">
   <ul
-    class="grid w-full xl:grid-cols-3 xl:grid-rows-3 xl:gap-4 gap-2 h-[600px]"
+    class="grid w-full xl:grid-cols-3 xl:grid-rows-3 xl:gap-4 gap-2 xl:h-[600px]"
   >
     {
       projects.map(({ name, url, description, highlights }) => {
@@ -14,7 +14,7 @@ import { projects } from "@cv";
           <div class="container xl:first:row-[1_/_4] xl:nth-[2]:row-[1_/_3] xl:nth-[2]:col-[2_/_3] ">
             <a href={url} target="_blank">
               <BoxContainer>
-                <div class="h-full w-full flex flex-col justify-center items-center gap-4">
+                <div class="lg:h-full lg:w-full flex flex-col justify-center items-center gap-4">
                   <h3>{name}</h3>
                   <p class="text-[#faf9fb62]">{description}</p>
                   <p class="text-[#faf9fb62]">[{highlights}]</p>
