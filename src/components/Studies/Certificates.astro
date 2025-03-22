@@ -9,10 +9,14 @@ import BoxContainer from "../BoxContainer.astro";
     class="flex flex-col gap-2 xl:h-80 xl:grid xl:gap-2.5 xl:grid-cols-3 xl:grid-rows-2 justify-center content-end"
   >
     {
-      certificates.map(({ name }) => {
+      certificates.map(({ name, issuer, date, image }) => {
         return (
           <BoxContainer>
-            <h4>{name}</h4>
+            <div>
+              <h3>{name}</h3>
+              <h4 class="text-[#faf9fb62]">{issuer}</h4>
+            </div>
+            <time>{date}</time>
           </BoxContainer>
         );
       })

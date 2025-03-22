@@ -81,9 +81,17 @@
 	],
 	"certificates": [
 		{
+			"name": "Certificación en FullStack en MERN",
+			"date": "2024",
+			"issuer": "FullStackOpen",
+			"image": "CertificadoFullStackDeveloper.jpg",
+			"url": "https://certificate.com"
+		},
+		{
 			"name": "Certificación en BD Relacionales con MySQL",
 			"date": "2024",
 			"issuer": "TodoCode",
+			"image": "CertificadoBDRelacionalesMySql.jpg",
 			"url":"https://certificate.com"
 		},
 		
@@ -91,24 +99,22 @@
 			"name": "Certificación en JavaScript",
 			"date": "2024",
 			"issuer": "SuperSkill",
+			"image": "CertificadoJs.jpg",
 			"url": "https://certificate.com"
 		},
-		{
-			"name": "Certificación en FullStack en MERN",
-			"date": "2024",
-			"issuer": "FullStackOpen",
-			"url": "https://certificate.com"
-		},
+		
 		{
 			"name": "Certificación en TypeScript",
 			"date" : "2024",
 			"issuer": "FullStackOpen",
+			"image": "CertificadoFSO-Ts.jpeg",
 			"url": "https://certificate.com"
 		},
 		{
 			"name": "Certificación en HTML y CSS básico",
 			"date": "2023",
 			"issuer": "OpenBootcamp",
+			"image": "CertificadoHTMLCSS.jpg",
 			"url": "https://certificate.com"
 		}
 	],
