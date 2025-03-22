@@ -16,7 +16,9 @@ const SOCIAL_ICONS: Record<string, any> = {
 ---
 
 <section>
-  <footer class="bg-[#222727] h-16 flex items-center justify-around">
+  <footer
+    class="bg-[#222727] h-16 max-md:h-auto max-md:gap-4 flex max-md:flex-col items-center justify-around"
+  >
     <span class="object-cover w-auto flex items-center gap-2">
       <WorldMap />
       {city},{region}
@@ -67,7 +69,7 @@ const SOCIAL_ICONS: Record<string, any> = {
         )
       }
     </div>
-    <p class="text-sm w-50">
+    <p class="text-sm md:w-50">
       © Hecho por <strong class="text-[#55ca5d]">{name}</strong> 2025
     </p>
   </footer>
