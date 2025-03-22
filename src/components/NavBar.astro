@@ -1,4 +1,6 @@
 ---
+import BurgerMenu from "@/icons/BurgerMenu.astro";
+
 const categories = [
   { name: "Sobre mí", url: "#about-me" },
   { name: "Estudios", url: "#studies" },
@@ -7,29 +9,61 @@ const categories = [
 ];
 ---
 
-<nav
-  class="fixed z-40 w-full flex sm:flex-col items-center gap-2 pt-2 backdrop-blur-xs max-sm:bg-[#55ca6d] max-sm:h-16"
->
-  <div class="max-sm:w-full flex items-center justify-center">
-    <a class="sm:absolute sm:left-20 sm:-top-1" href="#"
-      ><img class="w-16 h-12 invert-100" src="/JAH-LOGO.webp" alt="" /></a
-    >
+<nav class="fixed z-40 w-full">
+  <div
+    class="relative w-full flex md:flex-col items-center gap-2 backdrop-blur-xs max-md:bg-[#55ca6d] max-md:h-16"
+  >
+    <div class="max-md:w-full flex items-center justify-around">
+      <a class="md:absolute md:left-20 md:-top-1" href="#"
+        ><img class="w-16 h-12 invert-100" src="/JAH-LOGO.webp" alt="" /></a
+      >
+      <div class="relative md:hidden">
+        <input type="checkbox" id="menu-toggle" class="hidden peer" />
+        <label
+          for="menu-toggle"
+          class="block cursor-pinter p-2 bg-[#F5F4F6] text-[#55CA6D]"
+        >
+          <BurgerMenu />
+        </label>
+        <nav
+          class="absolute top-full left-0 w-48 bg-[#F5F4F6] text-[#242D2E] hidden peer-checked:block"
+        >
+          <ul>
+            {
+              categories.map((category) => {
+                return (
+                  <li>
+                    <a
+                      class="p-2 2xl:text-xl text-base relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#55CA6D] after:absolute after:bottom-2 after:left-0 after:transition-all after:duration-500"
+                      href={category.url}
+                    >
+                      {category.name}
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <ul class="hidden md:flex md:gap-4">
+      {
+        categories.map((category) => {
+          return (
+            <li>
+              <a
+                class="2xl:text-xl text-base  relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#f5f4f6] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-500"
+                href={category.url}
+              >
+                {category.name}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <div class="w-2/5 h-1 max-md:hidden bg-[#55CA6D] rounded-3xl"></div>
   </div>
-  <ul class="sm:flex gap-3 lg:gap-8 max-sm:hidden max-sm:absolute">
-    {
-      categories.map((category) => {
-        return (
-          <li>
-            <a
-              class="2xl:text-xl text-base  relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#f5f4f6] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-500"
-              href={category.url}
-            >
-              {category.name}
-            </a>
-          </li>
-        );
-      })
-    }
-  </ul>
-  <div class="w-2/5 h-1 max-sm:absolute bg-[#55CA6D] rounded-3xl"></div>
 </nav>
