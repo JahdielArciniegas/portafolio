@@ -116,6 +116,13 @@
 			"issuer": "OpenBootcamp",
 			"image": "CertificadoHTMLCSS.jpg",
 			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en GraphQL",
+			"date": "2025",
+			"issuer": "FullStackOpen",
+			"image": "CertificadoGraphQL.jpg",
+			"url": "https://certificate.com"
 		}
 	],
 	"publications": [
