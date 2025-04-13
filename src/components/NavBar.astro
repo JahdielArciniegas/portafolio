@@ -1,15 +1,9 @@
 ---
 import BurgerMenu from "@/icons/BurgerMenu.astro";
-
-const categories = [
-  { name: "Sobre mí", url: "#about-me" },
-  { name: "Estudios", url: "#studies" },
-  { name: "Habilidades", url: "#skills" },
-  { name: "Proyectos", url: "#projects" },
-];
+import NavItem from "./NavItem.astro";
 ---
 
-<nav class="fixed z-40 w-full scroll-smooth">
+<div class="fixed z-40 w-full scroll-smooth">
   <div
     class="relative w-full flex md:flex-col items-center gap-2 backdrop-blur-xs max-md:bg-[#55ca6d] max-md:h-16"
   >
@@ -17,53 +11,26 @@ const categories = [
       <a class="md:absolute md:left-20 md:-top-1" href="#"
         ><img class="w-16 h-12 invert-100" src="/JAH-LOGO.webp" alt="" /></a
       >
-      <div class="relative md:hidden">
+      <div class="relative ">
         <input type="checkbox" id="menu-toggle" class="hidden peer" />
         <label
           for="menu-toggle"
-          class="block cursor-pinter p-2 bg-[#F5F4F6] text-[#55CA6D]"
+          class="block cursor-pinter p-2  text-[#F5F4F6] md:hidden"
         >
           <BurgerMenu />
         </label>
         <nav
-          class="absolute top-full left-0 w-48 bg-[#F5F4F6] text-[#242D2E] hidden peer-checked:block"
+          class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48  max-md:bg-[#F5F4F6] max-md:text-[#242D2E] max-md:hidden max-md:peer-checked:block"
         >
-          <ul>
-            {
-              categories.map((category) => {
-                return (
-                  <li>
-                    <a
-                      class="p-2 2xl:text-xl text-base relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#55CA6D] after:absolute after:bottom-2 after:left-0 after:transition-all after:duration-500"
-                      href={category.url}
-                    >
-                      {category.name}
-                    </a>
-                  </li>
-                );
-              })
-            }
+          <ul class="md:flex md:gap-4">
+            <NavItem url="#about-me">Sobre mí</NavItem>
+            <NavItem url="#studies">Estudios</NavItem>
+            <NavItem url="#skills">Habilidades</NavItem>
+            <NavItem url="#projects">Proyectos</NavItem>
           </ul>
         </nav>
       </div>
     </div>
-
-    <ul class="hidden md:flex md:gap-4">
-      {
-        categories.map((category) => {
-          return (
-            <li>
-              <a
-                class="2xl:text-xl text-base  relative hover:after:w-full after:w-0 after:h-0.5 after:content-[''] after:bg-[#f5f4f6] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-500"
-                href={category.url}
-              >
-                {category.name}
-              </a>
-            </li>
-          );
-        })
-      }
-    </ul>
     <div class="w-2/5 h-1 max-md:hidden bg-[#55CA6D] rounded-3xl"></div>
   </div>
-</nav>
+</div>
