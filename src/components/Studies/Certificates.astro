@@ -5,17 +5,18 @@ import { certificates } from "@cv";
 <div class="w-full flex flex-col gap-4">
   <h3 class="text-xl">Certificados</h3>
   <ul
-    class="flex flex-col gap-2 xl:grid xl:gap-2.5 xl:grid-cols-3 justify-center content-end"
+    class="flex flex-col gap-2 md:grid md:gap-2.5 md:grid-cols-2 xl:gap-2.5 xl:grid-cols-3 justify-center content-end"
   >
     {
       certificates.map(({ name, issuer, date, image }) => {
         return (
-          <div class="container h-40 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
+          <div class="container h-40 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-all duration-300 hover:h-auto hover:**:block ">
             <div>
               <h3>{name}</h3>
               <h4 class="text-[#faf9fb62]">{issuer}</h4>
             </div>
             <time>{date}</time>
+            <img src={image} alt="" class="hidden peer-checked:block h-40 w-full" />
           </div>
         );
       })

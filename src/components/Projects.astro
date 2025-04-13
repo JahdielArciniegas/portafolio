@@ -5,14 +5,14 @@ import { projects } from "@cv";
 
 <Sections sectionId="projects" title="Proyectos">
   <ul
-    class="grid w-full xl:grid-cols-3 xl:gap-4 gap-2 xl:h-[400px]"
+    class="grid w-full md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-2 xl:h-[400px]"
   >
     {
       projects.map(({ name, url, description, highlights }) => {
         return (
           <div class="container">
             <a href={url} target="_blank">
-              <div class="container h-80 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
+              <div class="container h-60 xl:h-80  bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
                 <div class="lg:h-full lg:w-full flex flex-col justify-center items-center gap-4">
                   <h3>{name}</h3>
                   <p class="text-[#faf9fb62]">{description}</p>

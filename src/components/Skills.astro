@@ -40,7 +40,7 @@ const SKILLS_ICON: Record<string, any> = {
       skills.map(({ name, icon }) => {
         const Icon = SKILLS_ICON[`${icon}`];
         return (
-          <li class="p-4 flex flex-col items-center ">
+          <li class="p-4 flex w-32 flex-col items-center ">
             <h4 class="text-sm">{name}</h4>
             <div class="w-12 h-12">
               <Icon />
