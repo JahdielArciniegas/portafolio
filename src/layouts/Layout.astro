@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="overflow-y-auto scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -7,18 +7,8 @@
     <meta name="generator" content={Astro.generator} />
     <title>Jahdiel Arciniegas - Desarrollador FullStack</title>
   </head>
-  <body class="font-mono">
+  <body class="font-mono overflow-y-auto bg-[#242D2E] text-[#F5F4F6] m-0">
     <slot />
   </body>
 </html>
 
-<style>
-  html,
-  body {
-    background-color: #242d2e;
-    color: #f5f4f6;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

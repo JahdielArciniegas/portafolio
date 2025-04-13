@@ -1,23 +1,22 @@
 ---
 import { certificates } from "@cv";
-import BoxContainer from "../BoxContainer.astro";
 ---
 
 <div class="w-full flex flex-col gap-4">
   <h3 class="text-xl">Certificados</h3>
   <ul
-    class="flex flex-col gap-2 xl:h-80 xl:grid xl:gap-2.5 xl:grid-cols-3 xl:grid-rows-2 justify-center content-end"
+    class="flex flex-col gap-2 xl:grid xl:gap-2.5 xl:grid-cols-3 justify-center content-end"
   >
     {
       certificates.map(({ name, issuer, date, image }) => {
         return (
-          <BoxContainer>
+          <div class="container h-40 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
             <div>
               <h3>{name}</h3>
               <h4 class="text-[#faf9fb62]">{issuer}</h4>
             </div>
             <time>{date}</time>
-          </BoxContainer>
+          </div>
         );
       })
     }
