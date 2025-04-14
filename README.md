@@ -1,29 +1,21 @@
-# Portafolio de Jahdiel Arciniegas
+<h1 align="center">Portafolio de Jahdiel Arciniegas</h1>
+Lading Page que muestra mis estudios, habilidades, proyectos y un breve resumen de mis objetivos como programador. Desarrollado con Astro. 
+<br>
+<div align="center">
+  <img  src="https://github.com/JahdielArciniegas/portafolio/blob/main/public/ImgPrevia.jpg" alt="Lading Page - Jahdiel Arciniegas" width="800px">
+</div>
 
-<img src="https://github.com/JahdielArciniegas/portafolio/blob/main/public/ImgPrevia.jpg" alt="Lading Page - Jahdiel Arciniegas">
-
-Lading Page que muestra mis estudios, habilidades, proyectos y un breve resumen de mis objetivos como programador. Desarrollado con Astro.
-
-# Tecnologías
+## Tecnologías
 
 - Astro
 - Tailwind
 
-# Dirección
+## Dirección
 
 https://jahdiel-arciniegas.vercel.app
 
-# Estructura del proyecto
+## Mejoras Futuras
 
-.
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── layouts
-│   │   ├── icons
-│   │   └── cv.json
-
+Agregar muchos mas conocimientos y proyectos al portafolio para asi fortalecer mis habilidades y seguir mejorando personalmente
 
 
