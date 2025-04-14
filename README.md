@@ -1,6 +1,6 @@
 # Portafolio de Jahdiel Arciniegas
 
-<img src="./ImgPrevia.png" alt="Lading Page - Jahdiel Arciniegas">
+<img src="https://github.com/JahdielArciniegas/portafolio/blob/main/public/ImgPrevia.jpg" alt="Lading Page - Jahdiel Arciniegas">
 
 Lading Page que muestra mis estudios, habilidades, proyectos y un breve resumen de mis objetivos como programador. Desarrollado con Astro.
 
