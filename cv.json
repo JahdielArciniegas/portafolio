@@ -242,20 +242,26 @@
 		{
 			"name": "Farmacia Bouna Vita",
 			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
-			"highlights": ["Pagina Farmacia Bouna Vita (en progreso...)"],
-			"url": "https://farmacia-bouna-vita.vercel.app/"
+			"image": "./proyectos/farmacia.jpg",
+			"stack": ["React", "Tailwind", "JavaScript", "Vite"],
+			"demo": "https://farmacia-bouna-vita.vercel.app/",
+			"repo": "https://github.com/JahdielArciniegas/project-farmacia-bouna-vita"
 		},
 		{
 			"name": "Telephone Agency",
 			"description": "Aplicación para agregar y modificar numeros telefónicos",
-			"highlights": ["Pagina de agencia telefónica"],
-			"url": "https://telephoneagencybackend.vercel.app/"
+			"image": "./proyectos/TelephoneAgency.jpg",
+			"stack": ["React", "Tailwind", "JavaScript", "Vite", "Node.js", "Express", "MongoDB"],
+			"demo": "https://telephoneagencybackend.vercel.app/",
+			"repo": "https://github.com/JahdielArciniegas/FullStackOpenPart3"
 		},
 		{
-			"name": "Proximamente",
-			"description": "",
-			"highlights": ["Trabajando duro para crear mas projectos"],
-			"url": "#"
+			"name": "Proyecto Calcular Costos",
+			"description": "Proyecto hecho para ayudar a un cliente a calcular los costos de un producto",
+			"image": "./proyectos/Inventory.jpg",
+			"stack": ["React", "Tailwind", "JavaScript", "TypeScript", "Vite", "Node.js", "Express", "MongoDB"],
+			"demo": "#",
+			"repo": "https://github.com/JahdielArciniegas/front-inventary-proyect"
 		}
 	]
 }

@@ -1,25 +1,35 @@
 ---
+import NavItem from "./NavItem.astro";
 import Sections from "./Sections.astro";
 import { projects } from "@cv";
 ---
 
 <Sections sectionId="projects" title="Proyectos">
   <ul
-    class="grid w-full md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-2 xl:h-[400px]"
+    class="grid w-full md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-10 xl:h-[500px]"
   >
     {
-      projects.map(({ name, url, description, highlights }) => {
+      projects.map(({ name, description, stack, demo, repo, image }) => {
         return (
           <div class="container">
-            <a href={url} target="_blank">
-              <div class="container h-60 xl:h-80  bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
-                <div class="lg:h-full lg:w-full flex flex-col justify-center items-center gap-4">
+              <div class="container relative h-80 xl:h-11/12 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
+                <div class="lg:h-full lg:w-full flex flex-col items-center gap-4">
+                  <img src={image} alt={`imagen previa de ${name}`} class="hidden xl:block">
                   <h3>{name}</h3>
                   <p class="text-[#faf9fb62]">{description}</p>
-                  <p class="text-[#faf9fb62]">[{highlights}]</p>
+                  <div class="flex flex-wrap gap-1 w-full">
+                    {
+                      stack.map((tech) => (
+                        <span class="bg-[#55ca6d] text-[#242d2e] flex items-center justify-center px-1 py-0.5 rounded-full text-xs">{tech}</span>
+                      ))
+                    }
+                  </div>
+                  <div class="absolute bottom-5 flex justify-around h-max w-full">
+                    <NavItem url={demo}>Demo</NavItem>
+                    <NavItem url={repo}>Repositorio</NavItem>
+                  </div>
                 </div>
               </div>
-            </a>
           </div>
         );
       })
