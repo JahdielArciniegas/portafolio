@@ -257,7 +257,7 @@
 		},
 		{
 			"name": "Proyecto Calcular Costos",
-			"description": "Proyecto hecho para ayudar a un cliente a calcular los costos de un producto",
+			"description": "Proyecto hecho para ayudar a un cliente a calcular los costos de sus productos",
 			"image": "./proyectos/Inventory.jpg",
 			"stack": ["React", "Tailwind", "JavaScript", "TypeScript", "Vite", "Node.js", "Express", "MongoDB"],
 			"demo": "#",
