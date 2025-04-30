@@ -16,7 +16,11 @@ import { certificates } from "@cv";
               <h4 class="text-[#faf9fb62]">{issuer}</h4>
             </div>
             <time>{date}</time>
-            <img src={image} alt="" class="hidden peer-checked:block h-40 w-full" />
+            <img
+              src={image}
+              alt={`Imagen del ${name}`}
+              class="hidden peer-checked:block h-40 w-full"
+            />
           </div>
         );
       })

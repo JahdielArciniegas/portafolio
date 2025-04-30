@@ -11,16 +11,16 @@ import NavItem from "./NavItem.astro";
       <a class="md:absolute md:left-20 md:-top-1" href="#"
         ><img class="w-16 h-12 invert-100" src="/JAH-LOGO.webp" alt="" /></a
       >
-      <div class="relative ">
+      <div class="relative">
         <input type="checkbox" id="menu-toggle" class="hidden peer" />
         <label
           for="menu-toggle"
-          class="block cursor-pinter p-2  text-[#F5F4F6] md:hidden"
+          class="block cursor-pinter p-2 text-[#F5F4F6] md:hidden"
         >
           <BurgerMenu />
         </label>
         <nav
-          class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48  max-md:bg-[#F5F4F6] max-md:text-[#242D2E] max-md:hidden max-md:peer-checked:block"
+          class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48 max-md:bg-[#F5F4F6] max-md:text-[#242D2E] max-md:hidden max-md:peer-checked:block"
         >
           <ul class="md:flex md:gap-4">
             <NavItem url="#about-me">Sobre mí</NavItem>
@@ -33,4 +33,5 @@ import NavItem from "./NavItem.astro";
     </div>
     <div class="w-2/5 h-1 max-md:hidden bg-[#55CA6D] rounded-3xl"></div>
   </div>
-</div> 
+</div>
+

@@ -12,24 +12,32 @@ import { projects } from "@cv";
       projects.map(({ name, description, stack, demo, repo, image }) => {
         return (
           <div class="container">
-              <div class="container relative h-80 xl:h-11/12 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
-                <div class="lg:h-full lg:w-full flex flex-col items-center gap-4">
-                  <img src={image} alt={`imagen previa de ${name}`} class="hidden xl:block">
-                  <h3>{name}</h3>
-                  <p class="text-[#faf9fb62]">{description}</p>
-                  <div class="flex flex-wrap gap-1 w-full">
-                    {
-                      stack.map((tech) => (
-                        <span class="bg-[#55ca6d] text-[#242d2e] flex items-center justify-center px-1 py-0.5 rounded-full text-xs">{tech}</span>
-                      ))
-                    }
-                  </div>
-                  <div class="absolute bottom-5 flex justify-around h-max w-full">
-                    <NavItem url={demo} target="_blank">Demo</NavItem>
-                    <NavItem url={repo} target="_blank">Repositorio</NavItem>
-                  </div>
+            <div class="container relative h-80 xl:h-11/12 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-[0px_0px_10px_#55ca6d] hover:scale-110 transition-colors duration-300">
+              <div class="lg:h-full lg:w-full flex flex-col items-center gap-4">
+                <img
+                  src={image}
+                  alt={`imagen previa de ${name}`}
+                  class="hidden xl:block"
+                />
+                <h3>{name}</h3>
+                <p class="text-[#faf9fb62]">{description}</p>
+                <div class="flex flex-wrap gap-1 w-full">
+                  {stack.map((tech) => (
+                    <span class="bg-[#55ca6d] text-[#242d2e] flex items-center justify-center px-1 py-0.5 rounded-full text-xs">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div class="absolute bottom-5 flex justify-around h-max w-full">
+                  <NavItem url={demo} target="_blank">
+                    Demo
+                  </NavItem>
+                  <NavItem url={repo} target="_blank">
+                    Repositorio
+                  </NavItem>
                 </div>
               </div>
+            </div>
           </div>
         );
       })
