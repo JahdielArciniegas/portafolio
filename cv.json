@@ -260,7 +260,7 @@
 			"description": "Proyecto hecho para ayudar a un cliente a calcular los costos de sus productos",
 			"image": "./proyectos/Inventory.jpg",
 			"stack": ["React", "Tailwind", "JavaScript", "TypeScript", "Vite", "Node.js", "Express", "MongoDB"],
-			"demo": "#",
+			"demo": null,
 			"repo": "https://github.com/JahdielArciniegas/front-inventary-proyect"
 		}
 	]
