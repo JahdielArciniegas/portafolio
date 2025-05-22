@@ -262,6 +262,14 @@
 			"stack": ["React", "Tailwind", "JavaScript", "TypeScript", "Vite", "Node.js", "Express", "MongoDB"],
 			"demo": null,
 			"repo": "https://github.com/JahdielArciniegas/front-inventary-proyect"
+		},
+		{
+			"name": "Proyecto PRO/CONT",
+			"description": "Proyecto hecho para ayudar a las personas a tomar decisiones apartir de una tabla con pros y contras",
+			"image": "./proyectos/PROCONT.jpg",
+			"stack": ["Astro","React", "Tailwind","Shadcn","TypeScript", "MongoDB", "Clerk", "DndKit"],
+			"demo": "https://pro-cont.vercel.app/",
+			"repo": "https://github.com/JahdielArciniegas/PRO-CONT"
 		}
 	]
 }

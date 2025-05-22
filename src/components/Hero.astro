@@ -3,10 +3,8 @@ import { basics } from "@cv";
 import Mail from "@/icons/SocialMedia/Mail.astro";
 import LinkedIn from "@/icons/SocialMedia/LinkedIn.astro";
 import GitHub from "@/icons/SocialMedia/GitHub.astro";
-import WorldMap from "@/icons/WorldMap.astro";
 import Cv from "@/icons/SocialMedia/Cv.astro";
-const { name, role, profiles, email, cv, location } = basics;
-const { city, region } = location;
+const { name, role, profiles, email, cv } = basics;
 
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
@@ -18,24 +16,24 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="flex flex-col items-center justify-center mb-40">
     <div class="flex flex-col items-center z-10 mb-60">
       <h1
-        class="max-sm:text-3xl max-lg:text-5xl 2xl:text-9xl text-8xl text-[#55CA6D] tracking-wide"
+        class="max-sm:text-3xl max-lg:text-5xl 2xl:text-9xl text-8xl text-primary tracking-wide"
       >
         {name}
       </h1>
       <h2
-        class="max-sm:text-2xl max-lg:text-4xl 2xl:text-8xl text-7xl text-[#242D2E] -tracking-tighter drop-shadow-[0px_0px_4px_#55CA6D] max-lg:drop-shadow-[0px_0px_1px_#55CA6D]"
+        class="max-sm:text-2xl max-lg:text-4xl 2xl:text-8xl text-7xl text-secondary -tracking-tighter drop-shadow-primary-md max-lg:drop-shadow-primary-sm animate-flip-in-x animate-duration-1000"
       >
         {role}
       </h2>
     </div>
 
     <div
-      class="z-30 mt-20 bg-[#F5F4F6] w-60 h-12 rounded-2xl absolute bottom-28 flex items-center justify-around"
+      class="z-30 mt-20 bg-tertiary w-60 h-12 rounded-2xl absolute bottom-28 flex items-center justify-around"
     >
       {
         email && (
           <a
-            class="border text-[#242d2e] border-[#242d2e] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            class="border text-secondary border-secondary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
             href={`mailto:${email}`}
             title={`Enviar un correo a ${name} al correo ${email}`}
             target="_blank"
@@ -51,7 +49,7 @@ const SOCIAL_ICONS: Record<string, any> = {
 
           return (
             <a
-              class="border text-[#242d2e] border-[#242d2e] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+              class="border text-secondary border-secondary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
               href={url}
               title={`Visitar el pergil de ${name} en ${network}`}
               target="_blank"
@@ -65,7 +63,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       {
         cv && (
           <a
-            class="border text-[#242d2e] border-[#242d2e] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            class="border text-secondary border-secondary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
             href={`/${cv}`}
             title={`Descargar el CV de ${name}`}
             target="_blank"
@@ -79,13 +77,13 @@ const SOCIAL_ICONS: Record<string, any> = {
     </div>
   </div>
   <div
-    class="bg-[url(/heroCartoon.webp)] img-mask h-full w-full absolute bg-no-repeat bg-[auto_550px] 2xl:bg-[auto_650px] bg-bottom saturate-[80%] brightness-110 drop-shadow-[0px_0px_100px_#55ca5d] z-10"
+    class="img-mask bg-[url(/heroCartoon.webp)] h-full w-full absolute bg-no-repeat bg-[auto_550px] 2xl:bg-[auto_650px] bg-bottom saturate-[80%] brightness-110 drop-shadow-primary-xl z-10 animate-slide-up-fade"
   >
   </div>
 </div>
 
 <style>
   .img-mask {
-    mask-image: linear-gradient(#55ca5d 50%, transparent);
+    mask-image: linear-gradient(var(--primary-color) 50%, transparent);
   }
 </style>

@@ -5,14 +5,12 @@ import { projects } from "@cv";
 ---
 
 <Sections sectionId="projects" title="Proyectos">
-  <ul
-    class="grid w-full md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-10 xl:h-[500px]"
-  >
+  <ul class="grid w-full md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-10">
     {
       projects.map(({ name, description, stack, demo, repo, image }) => {
         return (
-          <div class="container">
-            <div class="container relative h-80 xl:h-11/12 bg-[#222727] p-4 rounded-2xl hover:drop-shadow-[0px_0px_10px_#55ca6d] transition-colors duration-300">
+          <div class="container animate-pulse-fade-in animate-duration-1000">
+            <div class="container relative h-80 xl:h-[425px] xl:pb-16 bg-[#222727] p-4 rounded-2xl hover:drop-shadow-primary-md transition-all duration-1000">
               <div class="lg:h-full lg:w-full flex flex-col items-center gap-4">
                 <img
                   src={image}

@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@plugin "@midudev/tailwind-animations";
+
+
+:root{
+  --primary-color: #55ca6d;
+  --secondary-color: #242d2e;
+  --tertiary-color: #f5f4f6;
+}
+
+@theme{
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-tertiary: var(--tertiary-color);
+  --drop-shadow-primary-md: 0 0 4px var(--primary-color);
+  --drop-shadow-primary-sm: 0 0 1px var(--primary-color);
+  --drop-shadow-primary-xl: 0 0 100px var(--primary-color);
+}
