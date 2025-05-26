@@ -10,10 +10,10 @@ import { certificates } from "@cv";
     {
       certificates.map(({ name, issuer, date, image }) => {
         return (
-          <div class="container h-40 bg-[#222727] p-4 rounded-2xl cursor-pointer hover:drop-shadow-primary-md  hover:h-72 hover:**:block active:**:block active:h-auto transition-all duration-1000">
+          <div class="container h-40 bg-card p-4 rounded-2xl cursor-pointer hover:drop-shadow-primary-md  hover:h-72 hover:**:block active:**:block active:h-auto transition-all duration-1000">
             <div>
               <h3>{name}</h3>
-              <h4 class="text-[#faf9fb62]">{issuer}</h4>
+              <h4 class="text-text">{issuer}</h4>
             </div>
             <time>{date}</time>
             <img

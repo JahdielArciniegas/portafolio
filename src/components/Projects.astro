@@ -10,7 +10,7 @@ import { projects } from "@cv";
       projects.map(({ name, description, stack, demo, repo, image }) => {
         return (
           <div class="container animate-pulse-fade-in animate-duration-1000">
-            <div class="container relative h-80 xl:h-[425px] xl:pb-16 bg-[#222727] p-4 rounded-2xl hover:drop-shadow-primary-md transition-all duration-1000">
+            <div class="container relative h-80 xl:h-[425px] xl:pb-16 bg-card p-4 rounded-2xl hover:drop-shadow-primary-md transition-all duration-1000">
               <div class="lg:h-full lg:w-full flex flex-col items-center gap-4">
                 <img
                   src={image}
@@ -18,10 +18,10 @@ import { projects } from "@cv";
                   class="hidden xl:block"
                 />
                 <h3>{name}</h3>
-                <p class="text-[#faf9fb62]">{description}</p>
+                <p class="text-text">{description}</p>
                 <div class="flex flex-wrap gap-1 w-full">
                   {stack.map((tech) => (
-                    <span class="bg-[#55ca6d] text-[#242d2e] flex items-center justify-center px-1 py-0.5 rounded-full text-xs">
+                    <span class="bg-primary text-secondary flex items-center justify-center px-1 py-0.5 rounded-full text-xs">
                       {tech}
                     </span>
                   ))}

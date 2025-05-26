@@ -17,7 +17,7 @@ const SOCIAL_ICONS: Record<string, any> = {
 
 <section>
   <footer
-    class="bg-[#222727] h-16 max-md:h-auto max-md:gap-4 flex max-md:flex-col items-center justify-around"
+    class="bg-card h-16 max-md:h-auto max-md:gap-4 flex max-md:flex-col items-center justify-around"
   >
     <span class="object-cover w-auto flex items-center gap-2">
       <WorldMap />
@@ -27,7 +27,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       {
         email && (
           <a
-            class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            class="border text-tertiary border-tertiary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
             href={`mailto:${email}`}
             title={`Enviar un correo a ${name} al correo ${email}`}
             target="_blank"
@@ -43,7 +43,7 @@ const SOCIAL_ICONS: Record<string, any> = {
 
           return (
             <a
-              class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+              class="border text-tertiary border-tertiary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
               href={url}
               title={`Visitar el pergil de ${name} en ${network}`}
               target="_blank"
@@ -57,7 +57,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       {
         cv && (
           <a
-            class="border text-[#f5f4f6] border-[#f5f4f6] rounded-3xl p-2 hover:bg-[#55ca5d] hover:scale-115 hover:text-[#f5f4f6] hover:border-[#f5f4f6] transition-all duration-300"
+            class="border text-tertiary border-tertiary rounded-3xl p-2 hover:bg-primary hover:scale-115 hover:text-tertiary hover:border-tertiary transition-all duration-300"
             href={`/${cv}`}
             title={`Descargar el CV de ${name}`}
             target="_blank"
@@ -70,7 +70,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       }
     </div>
     <p class="text-sm md:w-50">
-      © Hecho por <strong class="text-[#55ca5d]">{name}</strong> 2025
+      © Hecho por <strong class="text-primary">{name}</strong> 2025
     </p>
   </footer>
 </section>

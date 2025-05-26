@@ -5,7 +5,7 @@ import NavItem from "./NavItem.astro";
 
 <div class="fixed z-40 w-full">
   <div
-    class="relative w-full flex md:flex-col items-center gap-1 p-1 backdrop-blur-xs max-md:bg-[#55ca6d] max-md:h-16"
+    class="relative w-full flex md:flex-col items-center gap-1 p-1 backdrop-blur-xs max-md:bg-primary max-md:h-16"
   >
     <div class="max-md:w-full flex items-center justify-around">
       <a class="md:absolute md:left-20 md:-top-1" href="#"
@@ -15,12 +15,12 @@ import NavItem from "./NavItem.astro";
         <input type="checkbox" id="menu-toggle" class="hidden peer" />
         <label
           for="menu-toggle"
-          class="block cursor-pinter p-2 text-[#F5F4F6] md:hidden"
+          class="block cursor-pinter p-2 text-tertiary md:hidden"
         >
           <BurgerMenu />
         </label>
         <nav
-          class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48 max-md:bg-[#F5F4F6] max-md:text-[#242D2E] max-md:hidden max-md:peer-checked:block"
+          class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48 max-md:bg-tertiary max-md:text-secondary max-md:hidden max-md:peer-checked:block"
         >
           <ul class="md:flex md:gap-4">
             <NavItem url="#projects">Proyectos</NavItem>
@@ -31,6 +31,6 @@ import NavItem from "./NavItem.astro";
         </nav>
       </div>
     </div>
-    <div class="w-2/5 h-1 max-md:hidden bg-[#55CA6D] rounded-3xl"></div>
+    <div class="w-2/5 h-1 max-md:hidden bg-primary rounded-3xl"></div>
   </div>
 </div>
