@@ -81,47 +81,68 @@
 	],
 	"certificates": [
 		{
-			"name": "Certificación en FullStack en MERN",
-			"date": "2024",
-			"issuer": "FullStackOpen",
-			"image": "CertificadoFullStackDeveloper.jpg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en BD Relacionales con MySQL",
-			"date": "2024",
-			"issuer": "TodoCode",
-			"image": "CertificadoBDRelacionalesMySql.jpg",
-			"url":"https://certificate.com"
-		},
-		
-		{
-			"name": "Certificación en JavaScript",
-			"date": "2024",
-			"issuer": "SuperSkill",
-			"image": "CertificadoJs.jpg",
-			"url": "https://certificate.com"
-		},
-		
-		{
-			"name": "Certificación en TypeScript",
-			"date" : "2024",
-			"issuer": "FullStackOpen",
-			"image": "CertificadoFSO-Ts.jpeg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en HTML y CSS básico",
-			"date": "2023",
-			"issuer": "OpenBootcamp",
-			"image": "CertificadoHTMLCSS.jpg",
+			"name": "Certificación de Iniciación al Desarrollo con IA",
+			"date": "2026",
+			"issuer": "Big School",
+			"image": "Certificados/CertificadoIA.png",
 			"url": "https://certificate.com"
 		},
 		{
 			"name": "Certificación en GraphQL",
 			"date": "2025",
 			"issuer": "FullStackOpen",
-			"image": "CertificadoGraph-Ql.jpg",
+			"image": "Certificados/CertificadoGraph-Ql.jpg",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en Introducción a los algoritmos y programación",
+			"date": "2025",
+			"issuer": "TodoCode",
+			"image": "Certificados/CertificadoIntroAlgoritmos.jpg",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en Base de datos Relacionales con MySQL",
+			"date": "2024",
+			"issuer": "TodoCode",
+			"image": "Certificados/CertificadoBDRelacionalesMySql.jpg",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en TypeScript",
+			"date": "2024",
+			"issuer": "FullStackOpen",
+			"image": "Certificados/CertificadoFSO-Ts.jpeg",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en FullStack en MERN",
+			"date": "2024",
+			"issuer": "FullStackOpen",
+			"image": "Certificados/CertificadoFullStackDeveloper.jpg",
+			"url":"https://certificate.com"
+		},
+		
+		{
+			"name": "Certificación en TypeScript",
+			"date": "2024",
+			"issuer": "SuperSkill",
+			"image": "Certificados/CertificadoTs.jpg",
+			"url": "https://certificate.com"
+		},
+		
+		{
+			"name": "Certificación en JavaScript",
+			"date" : "2024",
+			"issuer": "SuperSkill",
+			"image": "Certificados/CertificadoJs.jpg",
+			"url": "https://certificate.com"
+		},
+		{
+			"name": "Certificación en HTML y CSS básico",
+			"date": "2023",
+			"issuer": "OpenBootcamp",
+			"image": "Certificados/CertificadoHTMLCSS.jpg",
 			"url": "https://certificate.com"
 		}
 	],
@@ -240,28 +261,28 @@
 	],
 	"projects": [
 		{
-			"name": "Farmacia Bouna Vita",
-			"description": "Proyecto de una Farmacia en progreso, fue un codigo pedido para la universidad y decidi llevarlo a web",
-			"image": "./proyectos/farmacia.jpg",
-			"stack": ["React", "Tailwind", "JavaScript", "Vite"],
-			"demo": "https://farmacia-bouna-vita.vercel.app/",
-			"repo": "https://github.com/JahdielArciniegas/project-farmacia-bouna-vita"
-		},
-		{
-			"name": "Proyecto Calcular Costos",
-			"description": "Proyecto hecho para ayudar a un cliente a calcular los costos de sus productos",
-			"image": "./proyectos/Inventory.jpg",
-			"stack": ["React", "Tailwind", "JavaScript", "TypeScript", "Vite", "Node.js", "Express", "MongoDB"],
-			"demo": null,
-			"repo": "https://github.com/JahdielArciniegas/front-inventary-proyect"
-		},
-		{
 			"name": "Proyecto PRO/CONT",
 			"description": "Proyecto hecho para ayudar a las personas a tomar decisiones apartir de una tabla con pros y contras",
-			"image": "./proyectos/PROCONT.jpg",
-			"stack": ["Astro","React", "Tailwind","Shadcn","TypeScript", "MongoDB", "Clerk", "DndKit"],
+			"image": "./proyectos/Pro-Cont.png",
+			"stack": ["Astro", "React", "Tailwind", "Shadcn", "TypeScript", "MongoDB", "Clerk", "DndKit"],
 			"demo": "https://pro-cont.vercel.app/",
 			"repo": "https://github.com/JahdielArciniegas/PRO-CONT"
+		},
+		{
+			"name": "API Recipe-Ingredients",
+			"description": "API hecho para ayudar a calcular los costos de una receta apartir de un inventario de ingredientes",
+			"image": "./proyectos/Recipe-Ingredients.png",
+			"stack": ["Node.js", "Express", "PostgreSQL", "TypeScript", "EJS", "Prisma", "Bcrypt", "JWT"],
+			"demo": "https://recipe-ingredient-api.vercel.app/",
+			"repo": "https://github.com/JahdielArciniegas/recipe_ingredient_api"
+		},
+		{
+			"name": "API PeliValoración",
+			"description": "API hecho para valorar peliculas con tu pareja y que puedan compartir experiencias y opiniones juntos",
+			"image": "./proyectos/Pelivaloracion.png",
+			"stack": ["Node.js", "Express", "MongoDB", "TypeScript", "EJS", "Bcrypt", "JWT"],
+			"demo": "https://peli-valoracion.vercel.app/",
+			"repo": "https://github.com/JahdielArciniegas/PeliValoracion"
 		}
 	]
 }
