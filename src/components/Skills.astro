@@ -15,6 +15,7 @@ import NodeJs from "@/icons/Skills/NodeJs.astro";
 import Express from "@/icons/Skills/Express.astro";
 import Git from "@/icons/Skills/Git.astro";
 import C from "@/icons/Skills/C.astro";
+import Redis from "@/icons/Skills/Redis.astro";
 
 const SKILLS_ICON: Record<string, any> = {
   IconAstro,
@@ -31,6 +32,7 @@ const SKILLS_ICON: Record<string, any> = {
   Express,
   Git,
   C,
+  Redis,
 };
 ---
 
@@ -40,7 +42,7 @@ const SKILLS_ICON: Record<string, any> = {
       skills.map(({ name, icon }) => {
         const Icon = SKILLS_ICON[`${icon}`];
         return (
-          <li class="p-4 flex w-32 flex-col items-center ">
+          <li class="p-4 flex w-32 lg:w-40 flex-col items-center ">
             <h4 class="text-sm">{name}</h4>
             <div class="w-12 h-12">
               <Icon />
