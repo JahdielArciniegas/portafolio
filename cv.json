@@ -213,6 +213,12 @@
 			"keywords": ["HTML", "CSS", "JavaScript"]
 		},
 		{
+			"name": "Docker",
+			"level": "Master",
+			"icon": "Docker",
+			"keywords": ["HTML", "CSS", "JavaScript"]
+		},
+		{
 			"name": "React js",
 			"level": "Master",
 			"icon": "React",
