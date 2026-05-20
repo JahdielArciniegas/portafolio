@@ -81,6 +81,13 @@
 	],
 	"certificates": [
 		{
+			"name": "Certificación en Contenedores con Docker",
+			"date": "2026",
+			"issuer": "FullStackOpen",
+			"image": "Certificados/CertificadoFSO-Containers.png",
+			"url": "https://certificate.com"
+		},
+		{
 			"name" : "Certificación en Ciberseguridad y Hacking Ético",
 			"date": "2026",
 			"issuer": "Big School",
