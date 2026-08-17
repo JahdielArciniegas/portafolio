@@ -1,317 +1,350 @@
 {
-	"basics": {
-		"name": "Jahdiel Arciniegas",
-		"role" : "Desarollador Backend",
-		"label": "Programador Backend con 3 años de experiencia en la industria de la programación y en constante crecimiento",
-		"image": "mePortafolio.jpeg",
-		"email": "arciniegasjahdiel@gmail.com",
-		"phone": "+58 4247117431",
-		"cv": "Jahdiel_Arciniegas_Backend_Developer.pdf",
-		"url": "https://johndoe.com",
-		"summary": "Soy una persona proactiva, organizada y responsable. Deseo y persigo evolucionar e innovar constantemente para así compartir mi experiencia y conocimientos a fin de alcanzar metas y crear un ambiente de trabajo tanto positivo como productivo lo que seguramente conllevará a convertirme en una mejor version de mi.",
-		"location": {
-			"address": "San Cristobal",
-			"postalCode": "5001",
-			"city": "Táchira",
-			"countryCode": "VE",
-			"region": "Venezuela"
-		},
-		"profiles": [
-			{
-				"network": "GitHub",
-				"username": "JahdielArciniegas",
-				"url": "https://github.com/JahdielArciniegas"
-			},
-			{
-				"network": "LinkedIn",
-				"username": "Jahdiel Arciniegas",
-				"url": "https://www.linkedin.com/in/jahdiel-arciniegas/"
-			}
-		]
-	},
-	"work": [
-		{
-			"name": "Company",
-			"position": "President",
-			"url": "https://company.com",
-			"startDate": "2013-01-01",
-			"endDate": "2014-01-01",
-			"summary": "Description…",
-			"highlights": ["Started the company"]
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "Organization",
-			"position": "Volunteer",
-			"url": "https://organization.com/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description…",
-			"highlights": ["Awarded 'Volunteer of the Month'"]
-		}
-	],
-	"education": [{
-			"institution": "Unidad Educativa Colegio el Rosario",
-			"url": "https://colegioelrosario.com.ve/",
-			"area": "Bachiller en Ciencias",
-			"studyType": "Bachillerato",
-			"startDate": "2018",
-			"endDate": "2021",
-			"score": "9"
-		},
-		{
-			"institution": "Universidad Nacional Experimental del Táchira",
-			"url": "https://www.unet.edu.ve",
-			"area": "Ingeniería en Informática",
-			"studyType": "Pregrado",
-			"startDate": "2022",
-			"endDate": "2023",
-			"score": "",
-			"courses": ["DB1101 - Basic SQL"]
-		}
-	],
-	"awards": [
-		{
-			"title": "Award",
-			"date": "2014-11-01",
-			"awarder": "Company",
-			"summary": "There is no spoon."
-		}
-	],
-	"certificates": [
-		{
-			"name": "Certificación en Contenedores con Docker",
-			"date": "2026",
-			"issuer": "FullStackOpen",
-			"image": "Certificados/CertificadoFSO-Containers.png",
-			"url": "https://certificate.com"
-		},
-		{
-			"name" : "Certificación en Ciberseguridad y Hacking Ético",
-			"date": "2026",
-			"issuer": "Big School",
-			"image": "Certificados/CertificadoCiberseguridad.png",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación de Iniciación al Desarrollo con IA",
-			"date": "2026",
-			"issuer": "Big School",
-			"image": "Certificados/CertificadoIA.png",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en GraphQL",
-			"date": "2025",
-			"issuer": "FullStackOpen",
-			"image": "Certificados/CertificadoGraph-Ql.jpg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en Introducción a los algoritmos y programación",
-			"date": "2025",
-			"issuer": "TodoCode",
-			"image": "Certificados/CertificadoIntroAlgoritmos.jpg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en Base de datos Relacionales con MySQL",
-			"date": "2024",
-			"issuer": "TodoCode",
-			"image": "Certificados/CertificadoBDRelacionalesMySql.jpg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en TypeScript",
-			"date": "2024",
-			"issuer": "FullStackOpen",
-			"image": "Certificados/CertificadoFSO-Ts.jpeg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en FullStack en MERN",
-			"date": "2024",
-			"issuer": "FullStackOpen",
-			"image": "Certificados/CertificadoFullStackDeveloper.jpg",
-			"url":"https://certificate.com"
-		},
-		
-		{
-			"name": "Certificación en TypeScript",
-			"date": "2024",
-			"issuer": "SuperSkill",
-			"image": "Certificados/CertificadoTs.jpg",
-			"url": "https://certificate.com"
-		},
-		
-		{
-			"name": "Certificación en JavaScript",
-			"date" : "2024",
-			"issuer": "SuperSkill",
-			"image": "Certificados/CertificadoJs.jpg",
-			"url": "https://certificate.com"
-		},
-		{
-			"name": "Certificación en HTML y CSS básico",
-			"date": "2023",
-			"issuer": "OpenBootcamp",
-			"image": "Certificados/CertificadoHTMLCSS.jpg",
-			"url": "https://certificate.com"
-		}
-	],
-	"publications": [
-		{
-			"name": "Publication",
-			"publisher": "Company",
-			"releaseDate": "2014-10-01",
-			"url": "https://publication.com",
-			"summary": "Description…"
-		}
-	],
-	"skills": [
-		{
-			"name": "Node js",
-			"level": "Master",
-			"icon": "NodeJs",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Express",
-			"level": "Master",
-			"icon": "Express",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "TypeScript",
-			"level": "Master",
-			"icon": "Ts",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "JavaScript",
-			"level": "Master",
-			"icon": "Js",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
+  "basics": {
+    "name": "Jahdiel Arciniegas",
+    "role": "Desarollador Backend",
+    "label": "Programador Backend con 3 años de experiencia en la industria de la programación y en constante crecimiento",
+    "image": "mePortafolio.jpeg",
+    "email": "arciniegasjahdiel@gmail.com",
+    "phone": "+58 4247117431",
+    "cv": "Jahdiel_Arciniegas_Backend_Developer.pdf",
+    "url": "https://johndoe.com",
+    "summary": "Soy una persona proactiva, organizada y responsable. Deseo y persigo evolucionar e innovar constantemente para así compartir mi experiencia y conocimientos a fin de alcanzar metas y crear un ambiente de trabajo tanto positivo como productivo lo que seguramente conllevará a convertirme en una mejor version de mi.",
+    "location": {
+      "address": "San Cristobal",
+      "postalCode": "5001",
+      "city": "Táchira",
+      "countryCode": "VE",
+      "region": "Venezuela"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "JahdielArciniegas",
+        "url": "https://github.com/JahdielArciniegas"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Jahdiel Arciniegas",
+        "url": "https://www.linkedin.com/in/jahdiel-arciniegas/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Unidad Educativa Colegio el Rosario",
+      "url": "https://colegioelrosario.com.ve/",
+      "area": "Bachiller en Ciencias",
+      "studyType": "Bachillerato",
+      "startDate": "2018",
+      "endDate": "2021",
+      "score": "9"
+    },
+    {
+      "institution": "Universidad Nacional Experimental del Táchira",
+      "url": "https://www.unet.edu.ve",
+      "area": "Ingeniería en Informática",
+      "studyType": "Pregrado",
+      "startDate": "2022",
+      "endDate": "2023",
+      "score": "",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificación EF SET C1 Advanced en Reading & Listening",
+      "date": "2026",
+      "issuer": "EF SET",
+      "image": "Certificados/EFSET-080726.png",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en Contenedores con Docker",
+      "date": "2026",
+      "issuer": "FullStackOpen",
+      "image": "Certificados/CertificadoFSO-Containers.png",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en Ciberseguridad y Hacking Ético",
+      "date": "2026",
+      "issuer": "Big School",
+      "image": "Certificados/CertificadoCiberseguridad.png",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación de Iniciación al Desarrollo con IA",
+      "date": "2026",
+      "issuer": "Big School",
+      "image": "Certificados/CertificadoIA.png",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en GraphQL",
+      "date": "2025",
+      "issuer": "FullStackOpen",
+      "image": "Certificados/CertificadoGraph-Ql.jpg",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en Introducción a los algoritmos y programación",
+      "date": "2025",
+      "issuer": "TodoCode",
+      "image": "Certificados/CertificadoIntroAlgoritmos.jpg",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en Base de datos Relacionales con MySQL",
+      "date": "2024",
+      "issuer": "TodoCode",
+      "image": "Certificados/CertificadoBDRelacionalesMySql.jpg",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en TypeScript",
+      "date": "2024",
+      "issuer": "FullStackOpen",
+      "image": "Certificados/CertificadoFSO-Ts.jpeg",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en FullStack en MERN",
+      "date": "2024",
+      "issuer": "FullStackOpen",
+      "image": "Certificados/CertificadoFullStackDeveloper.jpg",
+      "url": "https://certificate.com"
+    },
 
-		{
-			"name": "MySQL",
-			"level": "Master",
-			"icon": "MySql",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "SQLite",
-			"level": "Master",
-			"icon": "Sqlite",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "MongoDB",
-			"level": "Master",
-			"icon": "Mongodb",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Git",
-			"level": "Master",
-			"icon": "Git",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Docker",
-			"level": "Master",
-			"icon": "Docker",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "React js",
-			"level": "Master",
-			"icon": "React",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Redis",
-			"level": "Master",
-			"icon": "Redis",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Astro",
-			"level": "Master",
-			"icon": "IconAstro",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "Tailwind CSS",
-			"level": "Master",
-			"icon": "Tailwind",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		
-		
-		{
-			"name": "CSS",
-			"level": "Master",
-			"icon": "Css",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},		
-		{
-			"name": "HTML",
-			"level": "Master",
-			"icon": "Html",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		},
-		{
-			"name": "C",
-			"level": "Master",
-			"icon": "C",
-			"keywords": ["HTML", "CSS", "JavaScript"]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Native speaker"
-		}
-	],
-	"interests": [
-		{
-			"name": "Wildlife",
-			"keywords": ["Ferrets", "Unicorns"]
-		}
-	],
-	"references": [
-		{
-			"name": "Jane Doe",
-			"reference": "Reference…"
-		}
-	],
-	"projects": [
-		{
-			"name": "Proyecto PRO/CONT",
-			"description": "Proyecto hecho para ayudar a las personas a tomar decisiones apartir de una tabla con pros y contras",
-			"image": "./proyectos/Pro-Cont.png",
-			"stack": ["Astro", "React", "Tailwind", "Shadcn", "TypeScript", "MongoDB", "Clerk", "DndKit"],
-			"demo": "https://pro-cont.vercel.app/",
-			"repo": "https://github.com/JahdielArciniegas/PRO-CONT"
-		},
-		{
-			"name": "API Recipe-Ingredients",
-			"description": "API hecho para ayudar a calcular los costos de una receta apartir de un inventario de ingredientes",
-			"image": "./proyectos/Recipe-Ingredients.png",
-			"stack": ["Node.js", "Express", "PostgreSQL", "TypeScript", "EJS", "Prisma", "Bcrypt", "JWT"],
-			"demo": "https://recipe-ingredient-api.vercel.app/",
-			"repo": "https://github.com/JahdielArciniegas/recipe_ingredient_api"
-		},
-		{
-			"name": "API PeliValoración",
-			"description": "API hecho para valorar peliculas con tu pareja y que puedan compartir experiencias y opiniones juntos",
-			"image": "./proyectos/Pelivaloracion.png",
-			"stack": ["Node.js", "Express", "MongoDB", "TypeScript", "EJS", "Bcrypt", "JWT"],
-			"demo": "https://peli-valoracion.vercel.app/",
-			"repo": "https://github.com/JahdielArciniegas/PeliValoracion"
-		}
-	]
+    {
+      "name": "Certificación en TypeScript",
+      "date": "2024",
+      "issuer": "SuperSkill",
+      "image": "Certificados/CertificadoTs.jpg",
+      "url": "https://certificate.com"
+    },
+
+    {
+      "name": "Certificación en JavaScript",
+      "date": "2024",
+      "issuer": "SuperSkill",
+      "image": "Certificados/CertificadoJs.jpg",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Certificación en HTML y CSS básico",
+      "date": "2023",
+      "issuer": "OpenBootcamp",
+      "image": "Certificados/CertificadoHTMLCSS.jpg",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Node js",
+      "level": "Master",
+      "icon": "NodeJs",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Express",
+      "level": "Master",
+      "icon": "Express",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "icon": "Ts",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "icon": "Js",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+
+    {
+      "name": "MySQL",
+      "level": "Master",
+      "icon": "MySql",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "SQLite",
+      "level": "Master",
+      "icon": "Sqlite",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Master",
+      "icon": "Mongodb",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "icon": "Git",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Docker",
+      "level": "Master",
+      "icon": "Docker",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "React js",
+      "level": "Master",
+      "icon": "React",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Redis",
+      "level": "Master",
+      "icon": "Redis",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Astro",
+      "level": "Master",
+      "icon": "IconAstro",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Master",
+      "icon": "Tailwind",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+
+    {
+      "name": "CSS",
+      "level": "Master",
+      "icon": "Css",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "icon": "Html",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "C",
+      "level": "Master",
+      "icon": "C",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Proyecto PRO/CONT",
+      "description": "Proyecto hecho para ayudar a las personas a tomar decisiones apartir de una tabla con pros y contras",
+      "image": "./proyectos/Pro-Cont.png",
+      "stack": [
+        "Astro",
+        "React",
+        "Tailwind",
+        "Shadcn",
+        "TypeScript",
+        "MongoDB",
+        "Clerk",
+        "DndKit"
+      ],
+      "demo": "https://pro-cont.vercel.app/",
+      "repo": "https://github.com/JahdielArciniegas/PRO-CONT"
+    },
+    {
+      "name": "API Recipe-Ingredients",
+      "description": "API hecho para ayudar a calcular los costos de una receta apartir de un inventario de ingredientes",
+      "image": "./proyectos/Recipe-Ingredients.png",
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "TypeScript",
+        "EJS",
+        "Prisma",
+        "Bcrypt",
+        "JWT"
+      ],
+      "demo": "https://recipe-ingredient-api.vercel.app/",
+      "repo": "https://github.com/JahdielArciniegas/recipe_ingredient_api"
+    },
+    {
+      "name": "API PeliValoración",
+      "description": "API hecho para valorar peliculas con tu pareja y que puedan compartir experiencias y opiniones juntos",
+      "image": "./proyectos/Pelivaloracion.png",
+      "stack": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TypeScript",
+        "EJS",
+        "Bcrypt",
+        "JWT"
+      ],
+      "demo": "https://peli-valoracion.vercel.app/",
+      "repo": "https://github.com/JahdielArciniegas/PeliValoracion"
+    }
+  ]
 }

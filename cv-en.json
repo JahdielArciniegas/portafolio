@@ -82,6 +82,13 @@
   ],
   "certificates": [
     {
+      "name": "EF SET Certificate C1 Advanced in Reading & Listening",
+      "date": "2026",
+      "issuer": "EF SET",
+      "image": "Certificados/EFSET-080726.png",
+      "url": "https://certificate.com"
+    },
+    {
       "name": "Docker Containers Certification",
       "date": "2026",
       "issuer": "FullStackOpen",
