@@ -2,9 +2,16 @@
 import Sections from "@/components/Sections.astro";
 import Education from "./Studies/Education.astro";
 import Certificates from "./Studies/Certificates.astro";
+
+const lang = Astro.currentLocale ?? 'es'
+const titles = lang === 'en' ? {
+  studies: 'Studies',
+} : {
+  studies: 'Estudios'
+}
 ---
 
-<Sections sectionId="studies" title="Estudios">
+<Sections sectionId="studies" title={titles.studies}>
   <Education />
   <Certificates />
 </Sections>

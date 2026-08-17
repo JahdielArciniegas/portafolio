@@ -36,9 +36,19 @@ const SKILLS_ICON: Record<string, any> = {
   Redis,
   Docker,
 };
+
+const lang = Astro.currentLocale ?? 'es'
+
+const content = lang === 'en' ? {
+  title: 'Skills',
+  more: 'More coming soon...'
+} : {
+  title: 'Habilidades',
+  more: 'Más Proximamente...'
+}
 ---
 
-<Sections sectionId="skills" title="Habilidades">
+<Sections sectionId="skills" title={content.title}>
   <ul class="grid grid-cols-2 xl:grid-cols-6 xl:gap-4">
     {
       skills.map(({ name, icon }) => {
@@ -53,6 +63,6 @@ const SKILLS_ICON: Record<string, any> = {
         );
       })
     }
-    <li class="p-4 flex items-center">Más Proximamente...</li>
+    <li class="p-4 flex items-center">{content.more}</li>
   </ul>
 </Sections>

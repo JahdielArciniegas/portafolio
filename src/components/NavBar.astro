@@ -1,6 +1,19 @@
 ---
 import BurgerMenu from "@/icons/BurgerMenu.astro";
 import NavItem from "./NavItem.astro";
+import LanguageAstroComponent from "@/icons/Language.astro";
+const lang = Astro.currentLocale ?? 'es'
+const sections = lang === 'en' ? {
+  projects: 'Projects',
+  aboutMe: 'About Me',
+  studies: 'Studies',
+  skills: 'Skills'
+} : {
+  projects: 'Proyectos',
+  aboutMe: 'Sobre Mí',
+  studies: 'Estudios',
+  skills: 'Habilidades'
+}
 ---
 
 <div class="fixed z-40 w-full">
@@ -23,12 +36,15 @@ import NavItem from "./NavItem.astro";
           class="max-md:absolute max-md:top-full max-md:left-0 max-md:w-48 max-md:bg-tertiary max-md:text-secondary max-md:hidden max-md:peer-checked:block"
         >
           <ul class="md:flex md:gap-4">
-            <NavItem url="#projects">Proyectos</NavItem>
-            <NavItem url="#about-me">Sobre mí</NavItem>
-            <NavItem url="#studies">Estudios</NavItem>
-            <NavItem url="#skills">Habilidades</NavItem>
+            <NavItem url="#projects">{sections.projects}</NavItem>
+            <NavItem url="#about-me">{sections.aboutMe}</NavItem>
+            <NavItem url="#studies">{sections.studies}</NavItem>
+            <NavItem url="#skills">{sections.skills}</NavItem>
           </ul>
         </nav>
+      </div>
+      <div class=" md:absolute md:right-20 md:top-1">
+        <a class="flex w-12 items-center gap-2" href={lang === 'en' ? '/' : '/en/'}><LanguageAstroComponent />{lang === 'en' ? 'ES' : 'EN'}</a>
       </div>
     </div>
     <div class="w-2/5 h-1 max-md:hidden bg-primary rounded-3xl"></div>

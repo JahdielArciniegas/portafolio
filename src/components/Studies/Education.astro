@@ -1,9 +1,19 @@
 ---
-import { education } from "@cv";
+import { education as educationEs } from "@cv";
+import { education as educationEn } from "@cv-en"
+
+const lang = Astro.currentLocale ?? 'es'
+const education = lang === 'en' ? educationEn : educationEs;
+
+const titles = lang === 'en' ? {
+  education: 'Education',
+} : {
+  education: 'Educación'
+}
 ---
 
 <div class="w-full">
-  <h3 class="text-xl">Educación</h3>
+  <h3 class="text-xl">{titles.education}</h3>
   <ul class="flex max-lg:flex-col gap-4 xl:h-50">
     {
       education.map(({ institution, area, studyType }) => {

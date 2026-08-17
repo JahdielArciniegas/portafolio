@@ -1,9 +1,21 @@
 ---
-import { certificates } from "@cv";
+import { certificates as certificatesEs } from "@cv";
+import { certificates as certificatesEn } from "@cv-en"
+
+const lang = Astro.currentLocale ?? 'es'
+const certificates = lang === 'en' ? certificatesEn : certificatesEs;
+
+const titles = lang === 'en' ? {
+  certificates: 'Certificates',
+  src: '/../'
+} : {
+  certificates: 'Certificados',
+  src: '/'
+}
 ---
 
 <div class="w-full flex flex-col gap-4">
-  <h3 class="text-xl">Certificados</h3>
+  <h3 class="text-xl">{titles.certificates}</h3>
   <ul
     class="flex flex-col gap-2 md:grid md:gap-2.5 md:grid-cols-2 xl:gap-2.5 xl:grid-cols-3 justify-center content-end"
   >
@@ -17,7 +29,7 @@ import { certificates } from "@cv";
             </div>
             <time>{date}</time>
             <img
-              src={image}
+              src={titles.src + image}
               alt={`Imagen del ${name}`}
               class="hidden peer-checked:block h-40 w-full animate-bounce-fade-in animate-duration-1000"
             />

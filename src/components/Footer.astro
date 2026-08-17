@@ -1,12 +1,23 @@
 ---
 import Sections from "./Sections.astro";
-import { basics } from "@cv";
+import { basics as basicsEs } from "@cv";
+import { basics as basicsEn } from "@cv-en"
 import GitHub from "@/icons/SocialMedia/GitHub.astro";
 import LinkedIn from "@/icons/SocialMedia/LinkedIn.astro";
 import Mail from "@/icons/SocialMedia/Mail.astro";
 import Cv from "@/icons/SocialMedia/Cv.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 
+const lang = Astro.currentLocale ?? 'es'
+
+const content = lang === 'en' ? {
+  firstPart: "Designed by",
+  secondPart: "Updated",
+} : {
+  firstPart: "Hecho por",
+  secondPart: "Actualizado",
+}
+const basics = lang === 'en' ? basicsEn : basicsEs;
 const { name, profiles, email, cv, location } = basics;
 const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
@@ -70,7 +81,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       }
     </div>
     <p class="text-sm md:w-50">
-      © Hecho por <strong class="text-primary">{name}</strong> - actualizado 2026
+      © {content.firstPart} <strong class="text-primary">{name}</strong> - {content.secondPart} 2026
     </p>
   </footer>
 </section>

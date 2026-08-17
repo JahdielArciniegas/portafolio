@@ -1,9 +1,13 @@
 ---
-import { basics } from "@cv";
+import { basics as basicsEs } from "@cv";
+import { basics as basicsEn } from "@cv-en"
 import Mail from "@/icons/SocialMedia/Mail.astro";
 import LinkedIn from "@/icons/SocialMedia/LinkedIn.astro";
 import GitHub from "@/icons/SocialMedia/GitHub.astro";
 import Cv from "@/icons/SocialMedia/Cv.astro";
+
+const lang = Astro.currentLocale ?? 'es'
+const basics = lang === 'en' ? basicsEn : basicsEs;
 const { name, role, profiles, email, cv } = basics;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -21,7 +25,7 @@ const SOCIAL_ICONS: Record<string, any> = {
         {name}
       </h1>
       <h2
-        class="max-sm:text-2xl max-lg:text-4xl 2xl:text-8xl text-7xl text-secondary -tracking-tighter drop-shadow-primary-md max-lg:drop-shadow-primary-sm animate-flip-in-x animate-duration-1000"
+        class="max-sm:text-2xl max-lg:text-4xl 2xl:text-8xl text-7xl text-secondary tracking-tighter drop-shadow-primary-md max-lg:drop-shadow-primary-sm animate-flip-in-x animate-duration-1000"
       >
         {role}
       </h2>
@@ -77,7 +81,7 @@ const SOCIAL_ICONS: Record<string, any> = {
     </div>
   </div>
   <div
-    class="img-mask bg-[url(/heroCartoon.webp)] h-full w-full absolute bg-no-repeat bg-[auto_550px] 2xl:bg-[auto_650px] bg-bottom saturate-[80%] brightness-110 drop-shadow-primary-xl z-10 animate-slide-up-fade"
+    class="img-mask bg-[url(/heroCartoon.webp)] h-full w-full absolute bg-no-repeat bg-size-[auto_550px] 2xl:bg-size-[auto_650px] bg-bottom saturate-80 brightness-110 drop-shadow-primary-xl z-10 animate-slide-up-fade"
   >
   </div>
 </div>
